@@ -7,6 +7,8 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()],
   },
-  site: "https://nene.express",
+  // site: "https://nene.express",
+  site: "'https://athendat.github.io'",
+  base: "/nene.express",
   // output: "static",
 });
