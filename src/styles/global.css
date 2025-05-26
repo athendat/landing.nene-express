@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500;600;700&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Sarabun", "sans-serif";
+
+  --color-yellow-50: #fffee7;
+  --color-yellow-100: #fffec1;
+  --color-yellow-200: #fff886;
+  --color-yellow-300: #ffed41;
+  --color-yellow-400: #ffdc0d;
+  --color-yellow-500: #f7c600;
+  --color-yellow-600: #d19500;
+  --color-yellow-700: #a66a02;
+  --color-yellow-800: #89530a;
+  --color-yellow-900: #74440f;
+  --color-yellow-950: #442304;
+
+  --color-nex-gray: #e5e5e5;
+}

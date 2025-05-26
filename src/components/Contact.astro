@@ -1,0 +1,110 @@
+---
+// Contact Component
+---
+
+<section class="py-16 lg:py-24 bg-nex-gray" id="contact">
+  <div class="px-8 lg:px-10">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+      <!-- Left Content -->
+      <div>
+        <h2 class="text-3xl lg:text-5xl font-bold mb-6">
+          Ponte en contacto con nosotros
+        </h2>
+        <p class="text-gray-600 mb-8 leading-relaxed">
+          ¿Tienes alguna pregunta sobre nuestros servicios de transporte
+          express? Estamos aquí para ayudarte. Envíanos un mensaje y te
+          responderemos lo antes posible.
+        </p>
+
+        <!-- Support Info -->
+        <div class="mb-8">
+          <div class="text-sm text-gray-500 mb-2">WhatsApp</div>
+          <div class="text-2xl font-bold">+ 535 095 2149</div>
+        </div>
+
+        <!-- Location -->
+        <div>
+          <div class="text-sm text-gray-500 mb-2">Nuestra Ubicación</div>
+          <div class="text-gray-700">
+            La Sola #307 , entre Santa Catalina y Milagros<br />
+            municipio Diez de Octubre, provincia La Habana,<br />
+            República de Cuba.
+          </div>
+        </div>
+
+        <!-- Email -->
+        <div class="mt-6">
+          <div class="text-sm text-gray-500 mb-2">Escríbenos a</div>
+          <div class="text-gray-700">contacto@nene.express</div>
+        </div>
+      </div>
+      
+      <!-- Right Content - Contact Form -->
+      <div class="lg:p-8">
+        <form class="space-y-8">
+          <!-- Nombre Field -->
+          <div class="input-group">
+            <div
+              class="flex items-center border-b-2 border-gray-300 pb-3 transition-colors"
+            >
+              <label class="text-gray-500 min-w-0 flex-shrink-0 mr-4"
+                >Tu Nombre</label
+              >
+              <input
+                type="text"
+                class="flex-1 outline-none bg-transparent text-gray-900 placeholder-gray-400"
+                placeholder=""
+              />
+            </div>
+          </div>
+
+          <!-- Email Field -->
+          <div class="input-group">
+            <div
+              class="flex items-center border-b-2 border-gray-300 pb-3 transition-colors"
+            >
+              <label class="text-gray-500 min-w-0 flex-shrink-0 mr-4"
+                >Tu Email</label
+              >
+              <input
+                type="email"
+                class="flex-1 outline-none bg-transparent text-gray-900 placeholder-gray-400"
+                placeholder=""
+              />
+            </div>
+          </div>
+
+          <!-- Mensaje Field -->
+          <div class="input-group">
+            <div class="border-b-2 border-gray-300 pb-3 transition-colors">
+              <label class="text-gray-500 block mb-2">Mensaje</label>
+              <textarea
+                rows="4"
+                class="w-full outline-none bg-transparent text-gray-900 placeholder-gray-400 resize-none"
+                placeholder=""></textarea>
+            </div>
+          </div>
+
+          <button
+            type="submit"
+            class="text-lg cursor-pointer px-10 py-4 font-semibold bg-yellow-500 group flex items-center justify-center hover:bg-yellow-600 transition-colors"
+          >
+            <svg
+              class="w-5 h-5 mr-2 group-hover:rotate-45 transition-transform duration-300"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
+            </svg>
+            Enviar Mensaje
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
