@@ -17,4 +17,24 @@
   --color-yellow-950: #442304;
 
   --color-nex-gray: #e5e5e5;
+  --color-nex-dark: #1a1a1a;
+  --color-nex-yellow: #f7c600;
+}
+
+/* Custom classes que no están en Tailwind por defecto */
+.text-nex-dark {
+  color: var(--color-nex-dark);
+}
+
+.text-nex-yellow {
+  color: var(--color-nex-yellow);
+}
+
+.bg-nex-gray {
+  background-color: var(--color-nex-gray);
+}
+
+/* Font family override para el body */
+body {
+  font-family: 'Sarabun', sans-serif;
 }
